@@ -224,31 +224,34 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "chat",
+    "info",
+    "version",
+    "nerkh",
+    "plugins",
+    "welcome",
+    "chats",
+    "linkpv"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+ sudo_users = {179286096,157187288,119650184,174602122,4,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[focus v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
-
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@mamaligod [Founder]
+@mamaligodem [Developer]
+@xxx_sargardan_xxx [Developer]
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+amir
+sosha
+arian
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@focus_team [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -420,8 +423,18 @@ will return group logs
 !banlist
 will return group ban list
 
+!nerkh 
+میتوانید از قیمت گروه ها و نحوه ی خرید مطلع شوید
+
+!ver
+ورژنه ربات فوکوس
+
+!info
+دادن اطلاعات شما
+
 **U can use both "/" and "!" 
 
+*میتوانید بدونه ! و / هم دستور های ربات رو بزنید
 
 *Only owner and mods can add bots in group
 
